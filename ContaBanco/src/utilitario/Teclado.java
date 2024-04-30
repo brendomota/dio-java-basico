@@ -20,6 +20,8 @@ public class Teclado {
     }
     
     public static double lerDouble() {
-        return scanner.nextDouble();
+        double saldo = scanner.nextDouble();
+        scanner.nextLine();
+        return saldo;
     }
 }

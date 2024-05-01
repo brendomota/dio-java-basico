@@ -24,12 +24,12 @@ public class Contador {
 	}
 	static void contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
 		if(parametroUm >= parametroDois) {
-            throw new ParametrosInvalidosException();
-        }
+            	throw new ParametrosInvalidosException();
+        	}
 
 		int contagem = parametroDois - parametroUm;
 		for(int i = 1; i <= contagem; i++) {
-            System.out.println("Impriminto o número " + i);
-        }
+            	System.out.println("Impriminto o número " + i);
+        	}
 	}
 }
